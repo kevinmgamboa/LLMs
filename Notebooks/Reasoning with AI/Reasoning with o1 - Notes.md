@@ -44,9 +44,13 @@ user_input = ("<user_query>Hey, I'd like to return the bin I bought from you as 
 
 ![img_3.png](img_3.png)
 
-
 * Reasoning with o1 is different than reasoning with other models. This is because the way the model was trained and built
 * OpenAI (Closed AI) they found that by training a model using reinforcement learning to use chain-of-though, is better able to navigate reasoning tasks.
+
+## Planning
+The overall architecture of the task starts with a scenario which comes from a customer (e.g. Historia legal) that requires multi-step logic to answer that scenario. That scenario will be giving to o1-mini which will have at its disposal instructions of how to build a plan and a number of tools which it can use to carry out the plan. Then we engage with 4omini as a worker to carry out each task of the plan and when is done it will give an answer.
+![img_4.png](img_4.png)
+
 
 ### Abstract Reasoning
 ![img_2.png](img_2.png)
