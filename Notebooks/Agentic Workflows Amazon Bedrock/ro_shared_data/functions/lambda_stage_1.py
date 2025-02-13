@@ -1,6 +1,11 @@
 import json, random
 
 def unpack_parameters(parameters):
+    """
+    helper function to unpack parameters sent to the agents
+    :param parameters:
+    :return:
+    """
     result = {}
     for param in parameters:
         name = param.get("name")
