@@ -14,4 +14,5 @@ By the end, you will have built a sophisticated AI agent capable of handling rea
 
 ## Notes
 * Agents in order to solve the problem may call other APIs .. serverless application can help 
-* Think and learn to create Agents as a standalone service
+* Think and learn to create Agents as a standalone service.
+* guard rails are not part of the agent, but part of bedrock
